@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>GeoIdentify - IA de País por Características</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>GeoIdentify</h1>
+    <p class="subtitle">
+      Selecione as características que você observou na imagem e veja quais países são mais prováveis.
+    </p>
+
+    <section id="features-section">
+      <h2>Características Visuais</h2>
+      <div id="features-container"></div>
+      <button id="analyze-btn">Analisar</button>
+      <p id="error-msg" class="error"></p>
+    </section>
+
+    <section id="results-section">
+      <h2>Resultados</h2>
+      <div id="results-container"></div>
+
+      <h3>Principais Evidências do País Mais Provável</h3>
+      <ul id="evidences-list"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

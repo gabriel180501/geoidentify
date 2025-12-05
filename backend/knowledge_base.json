@@ -1,0 +1,40 @@
+{
+  "countries": ["FRANCE", "BRAZIL", "USA", "GERMANY"],
+  "features": {
+    "lane_yellow_center": {
+      "description": "Faixa amarela no centro da via",
+      "weights": { "USA": 2.0, "BRAZIL": 1.5 }
+    },
+    "lane_white_side": {
+      "description": "Faixa branca continua na borda",
+      "weights": { "FRANCE": 1.0, "GERMANY": 1.5, "BRAZIL": 1.0 }
+    },
+    "euroband_blue_plate": {
+      "description": "Placa com eurobanda azul",
+      "weights": { "FRANCE": 2.5, "GERMANY": 2.0 }
+    },
+    "bollard_red_top": {
+      "description": "Balisador com topo vermelho",
+      "weights": { "FRANCE": 2.0 }
+    },
+    "tropical_vegetation": {
+      "description": "Vegetacao tropical",
+      "weights": { "BRAZIL": 2.5 }
+    }
+  },
+  "categories": {
+    "Faixas da Estrada": [
+      { "id": "lane_yellow_center", "label": "Faixa amarela no centro" },
+      { "id": "lane_white_side", "label": "Faixa branca continua na borda" }
+    ],
+    "Placas de Carro": [
+      { "id": "euroband_blue_plate", "label": "Placa com eurobanda azul" }
+    ],
+    "Postes/Balisadores": [
+      { "id": "bollard_red_top", "label": "Balisador com topo vermelho" }
+    ],
+    "Vegetacao": [
+      { "id": "tropical_vegetation", "label": "Vegetacao tropical" }
+    ]
+  }
+}
